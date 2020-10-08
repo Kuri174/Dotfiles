@@ -19,13 +19,13 @@ function mk () {
     if [ ! -e $FILE ]; then
         echo "$FILE not exists."
     else
-        g++ -o A $FILE
+        g++ -o a.out $FILE
     fi
 }
 
 # online-judge-tools
 function ojd () {
-    DIR="test"
+ chrome-extension://chphlpgkkbolifaimnlloiipkdnAihall/onetab.html   DIR="test"
     if [ -d $DIR ]; then
         rm -r $DIR
     fi
